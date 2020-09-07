@@ -1,0 +1,149 @@
+@media only screen and (max-width: 991px) {
+	header{
+		padding: 0 20px;
+	}
+	.menu-toggle{
+		display: block;
+	}
+	header nav{
+		position: absolute;
+		width: 100%;
+		height:calc(100vh-50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+		z-index: 100;
+	}
+	header nav.active{
+		left: 0;
+	}
+	header nav ul{
+		display: block;
+		text-align: center;
+	}
+	header nav ul li a{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+	.contact-form {
+    	margin-top: 50px;
+	}
+	.carousel-item h1 {
+    	font-size: 30px;
+    	width: 620px;
+	}
+	.contact-form h3{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.work-btn-heading, .mixer-btn {
+    	text-align: center;
+    	padding-bottom: 40px;
+	}
+	.mixer-btn .btn-work {
+    	padding: 5px 10px;
+    	margin: 0 10px;
+	}
+	.carousel-item h1 {
+    	font-size: 30px;
+    	width: 537px;
+	}
+	.carousel-item h1 span {
+    	font-size: 45px;
+    	font-weight: 700;
+	}
+	.carousel-inner {
+    	padding-bottom: 180px;
+    	padding-top: 160px;
+	}
+	.service-heading h3 {
+		font-size: 15px;
+	}
+	.service-heading h2 {
+    	font-size: 50px;
+	}
+	.about-heading h2 {
+    	font-size: 35px;
+	}
+	.service-heading h2 {
+    	font-size: 40px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.card-img-top {
+    width: 100%;
+	}
+	.carousel-item h1 {
+    	font-size: 20px;
+    	width: 423px;
+	}
+	.carousel-item h1 span {
+    	font-size: 25px;
+	}
+	form{
+		margin-right: 0;
+	}
+	.form-control{
+		width: 90%;
+	}
+	.email{
+		width: 85%;
+	}
+	.address {
+    	text-align: center;
+	}
+	.map{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 520px) {
+	.about-heading h2 {
+    	font-size: 29px;
+	}
+	.carousel-item h1 {
+    	font-size: 16px;
+    	width: 364px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.mixer-btn .btn-work {
+    	padding: 5px 1px;
+    	margin: 0 5px;
+	}
+	.footer-icon i {
+    	margin: 0 10px;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.about-heading h2 {
+    font-size: 22px;
+	}
+	.about-heading p {
+    font-size: 12px;
+}
+	.address p {
+    	margin-bottom: 20px;
+	}
+	.footer-icon i {
+   	 	margin: 0 8px;
+    	font-size: 25px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.mixer-btn .btn-work {
+    	font-size: 13px;
+   	 	padding: 5px 1px;
+	}
+	.carousel-item h1 {
+    	font-size: 20px;
+    	width: 332px;
+	}
+	.carousel-inner {
+    		padding-bottom: 130px;
+    padding-top: 125px;
+	}
+}
+
